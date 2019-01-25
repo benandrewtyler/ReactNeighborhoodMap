@@ -45,6 +45,10 @@
   text-align: left;
 }
 
+#query-Filter {
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
 
 .listOfVenues {
   margin-top: 15px;

@@ -33,7 +33,7 @@ class App extends Component {
   */
 
   renderMap = () => {
-    loadScript("https://maps.googleapis.com/maps/api/js?key=AIzaSyBYi5z3xdE31FtV_NUvm7FOMmP2Cvvla3w&callback=initMap")
+    loadScript("https://maps.googleapis.com/maps/api/js?key=AIzaSyCmdFelqW7Lzqh2uJjRo_tWN2kPjIq-JeA&callback=initMap")
     window.initMap = this.initMap;
   }
 
@@ -46,10 +46,10 @@ class App extends Component {
   getVenues = () => {
     const endPoint = "https://api.foursquare.com/v2/venues/explore?"
     const parameters = {
-      client_id: "4ATSMFQDONZ5VLDPFPH4YR1ODXDHGL2VFZZZRE1T2BQEYDPL",
-      client_secret: "AVPVOVT4SAAXDDZNGRVI0LZUPBFZ1DASYISP1ONNLB5JBF50",
+      client_id: "FWFOISQQK4IH51IH2DBMNHGB4RDTVZMCY2DXVI0LU3WZV4AZ",
+      client_secret: "5B554ZIERLMXB12MYL1CXC1CY2ZQ01AUFJ5UH3UCSRJMFOF4",
       query: "sights",
-      ll: "40.6224858434,22.9423862304",
+      near: "London",
       v: "20181808",
       limit: 5
     }
@@ -82,12 +82,12 @@ class App extends Component {
 
     /* 
     * Create the map.
-    * Center coordinates point to my city, Thessaloniki - Greece.
+    * Center coordinates point to my city, London - UK.
     * Zoom level set to 14.
     */
     var map = new window.google.maps.Map(document.getElementById('map'), {
-      center: {lat: 40.6224858434, lng: 22.9423862304},
-      zoom: 14
+      center: {lat: 51.5287352, lng: -0.3817745},
+      zoom: 13
     })
 
     // Create an InfoWindow with max width 180px
