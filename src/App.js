@@ -83,10 +83,10 @@ class App extends Component {
     /* 
     * Create the map.
     * Center coordinates point to my city, London - UK.
-    * Zoom level set to 14.
+    * Zoom level set to 13.
     */
     var map = new window.google.maps.Map(document.getElementById('map'), {
-      center: {lat: 51.5287352, lng: -0.3817745},
+      center: {lat: 51.5225839, lng: -0.1577615},
       zoom: 13
     })
 
