@@ -16,7 +16,7 @@
 
 ## Overview
 
-I built a single page application featuring a map of some important sights in Thessaloniki, Greece, the city I live in. I added functionality to this map including highlighted locations, third-party data about those locations and various ways to browse the content.
+I built a single page application featuring a map of some important sights in Hertfordshire, UK, the county I live in. I added functionality to this map including highlighted locations, third-party data about those locations and various ways to browse the content.
 
 
 ## Specification
